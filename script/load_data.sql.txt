@@ -1,0 +1,4 @@
+COPY students(inter_dom, stay, todep, tosc, toas)
+FROM 'path/to/data/students.csv'
+DELIMITER ','
+CSV HEADER;

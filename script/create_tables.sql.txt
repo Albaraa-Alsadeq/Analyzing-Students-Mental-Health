@@ -1,0 +1,8 @@
+CREATE TABLE students (
+    student_id SERIAL PRIMARY KEY,
+    inter_dom VARCHAR(10),
+    stay INTEGER,
+    todep DECIMAL(5, 2),
+    tosc DECIMAL(5, 2),
+    toas DECIMAL(5, 2)
+);
